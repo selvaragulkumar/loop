@@ -1,0 +1,36 @@
+{
+  "name": "advanced-agent-loop",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "The longest-running, most stable autonomous agent loop. No LangGraph. Pure loop + file-based state.",
+  "main": "src/cli.js",
+  "bin": {
+    "agent": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "agent",
+    "autonomous",
+    "loop",
+    "llm"
+  ],
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TW-10519/Advanced-agent-loop.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/TW-10519/Advanced-agent-loop/issues"
+  },
+  "homepage": "https://github.com/TW-10519/Advanced-agent-loop#readme"
+}

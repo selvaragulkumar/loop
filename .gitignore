@@ -1,0 +1,41 @@
+# Agent runtime artifacts (generated per run)
+.agent/
+result/
+playground_app/
+
+# Progress and change logs from runs
+progress.md
+
+# Node
+node_modules/
+
+# Environment (secrets)
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Build
+dist/
+build/
+
+# Claude Code local settings (may contain org-specific IPs)
+.claude/
